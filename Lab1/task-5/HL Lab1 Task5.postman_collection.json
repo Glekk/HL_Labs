@@ -1,0 +1,92 @@
+{
+	"info": {
+		"_postman_id": "a8ee3222-9fe4-4f3b-808c-72995d354a17",
+		"name": "HL Lab1 Task5",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39006795"
+	},
+	"item": [
+		{
+			"name": "lite-server-request",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "json-server-request-posts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/json-server/posts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"json-server",
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "json-server-request-comments",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/json-server/comments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"json-server",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "json-server-request-profile",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/json-server/profile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"json-server",
+						"profile"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

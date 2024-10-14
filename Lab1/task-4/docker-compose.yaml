@@ -1,0 +1,25 @@
+version: '3.8'
+services:
+  json-server:
+    image: node
+    working_dir: /json_server
+    volumes:
+      - ./json_server:/json_server
+    command: bash start.sh
+
+  lite-server:
+    image: node
+    working_dir: /lite_server
+    volumes:
+      - ./lite_server:/lite_server
+    command: bash start.sh
+
+  nginx:
+    image: nginx
+    ports:
+      - "8080:80"
+    volumes:
+      - ./nginx:/etc/nginx
+    links:
+      - json-server
+      - lite-server

@@ -1,0 +1,110 @@
+{
+	"id": "6e340e3f-60be-435c-8456-a244b4071a5b",
+	"name": "HL Lab1 Task5",
+	"timestamp": "2024-10-14T19:23:12.855Z",
+	"collection_id": "39006795-a8ee3222-9fe4-4f3b-808c-72995d354a17",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-10-14T19:23:12.407Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "12bdc18d-9f2e-4539-8f48-52c9012c59f2",
+			"name": "lite-server-request",
+			"url": "http://localhost:8080/",
+			"time": 17,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				17
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9c1e7f51-7364-47dc-9f3f-5b13d1b727dc",
+			"name": "json-server-request-posts",
+			"url": "http://localhost:8080/json-server/posts",
+			"time": 10,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				10
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5ecfd073-2363-43d5-aca2-5999721a5d2f",
+			"name": "json-server-request-comments",
+			"url": "http://localhost:8080/json-server/comments",
+			"time": 8,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				8
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c20a7084-fe4b-40d1-8cee-5761f920e0ff",
+			"name": "json-server-request-profile",
+			"url": "http://localhost:8080/json-server/profile",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				9
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 44,
+	"collection": {
+		"requests": [
+			{
+				"id": "12bdc18d-9f2e-4539-8f48-52c9012c59f2",
+				"method": "GET"
+			},
+			{
+				"id": "9c1e7f51-7364-47dc-9f3f-5b13d1b727dc",
+				"method": "GET"
+			},
+			{
+				"id": "5ecfd073-2363-43d5-aca2-5999721a5d2f",
+				"method": "GET"
+			},
+			{
+				"id": "c20a7084-fe4b-40d1-8cee-5761f920e0ff",
+				"method": "GET"
+			}
+		]
+	}
+}
